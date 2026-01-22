@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Resorts Services</title>
+    <style>
+        :root { --gold: #c5a059; --navy: #1a2b48; }
+        body { font-family: 'Arial', sans-serif; background-color: #f8f9fa; margin: 0; display: flex; justify-content: center; padding: 20px; }
+        .container { width: 100%; max-width: 500px; text-align: center; }
+        .logo { width: 150px; margin-bottom: 20px; }
+        h2 { color: var(--navy); margin-bottom: 25px; font-size: 1.2rem; }
+        .link-btn {
+            display: block;
+            background: white;
+            color: var(--navy);
+            text-decoration: none;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        .link-btn:hover { border-color: var(--gold); background: #fefefe; transform: translateY(-2px); }
+        .survey-btn { background: var(--navy); color: white; }
+        .footer { margin-top: 30px; font-size: 0.8rem; color: #777; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>خدمات منتجعات صن رايز</h2>
+    
+    <!-- روابط التصنيفات (Categories) -->
+    <a href="https://app.sunrise-resorts.com" class="link-btn">🍽️ قائمة الطعام SM1MR</a>
+    <a href="https://app.sunrise-resorts.com" class="link-btn">🍹 المشروبات SM1MB</a>
+    <a href="https://app.sunrise-resorts.com" class="link-btn">🏖️ خدمات الشاطئ SM1SB</a>
+    
+    <hr style="border: 0.5px solid #eee; margin: 20px 0;">
+    
+    <!-- روابط الاستبيانات (Surveys) -->
+    <a href="https://surveys.sunrise-resorts.com" class="link-btn survey-btn">⭐ تقييم الإقامة (172)</a>
+    <a href="https://surveys.sunrise-resorts.com" class="link-btn survey-btn">⭐ تقييم الخدمات (132)</a>
+    <a href="https://surveys.sunrise-resorts.com" class="link-btn survey-btn">📝 جميع الاستبيانات</a>
+
+    <div class="footer">© 2026 Sunrise Resorts & Cruises</div>
+</div>
+
+</body>
+</html>
